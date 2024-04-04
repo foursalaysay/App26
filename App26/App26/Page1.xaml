@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App26.Page1">
+    <ContentPage.Content>
+        <ScrollView>
+            
+      
+        <StackLayout>
+            <Label Text="Welcome to Xamarin.Forms!"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+
+            <Label Text="--------------------------------"/>
+            <Label Text="Usage:"/>
+            <Label x:Name="passUsage" Text=""/>
+            <Label Text="--------------------------------"/>
+            <Label Text="Appliances:"/>
+            <Label x:Name="passed1" Text=""/>
+            <Label x:Name="passed2" Text=""/>
+            <Label x:Name="passed3" Text=""/>
+            <Label Text="--------------------------------"/>
+            <Label Text="Electricity Rate:"/>
+            <Label x:Name="passed4" Text=""/>
+            <Label Text="--------------------------------"/>
+            <Label Text="Total Cost:"/>
+            <Label x:Name="passed5" Text=""/>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
